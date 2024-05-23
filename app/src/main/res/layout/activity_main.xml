@@ -24,7 +24,7 @@
         app:srcCompat="@drawable/game" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/AdditionButton"
         android:layout_width="225dp"
         android:layout_height="61dp"
         android:layout_marginTop="112dp"
@@ -35,23 +35,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/SubtractionButton"
         android:layout_width="225dp"
         android:layout_height="61dp"
         android:layout_marginTop="80dp"
         android:text="SUBTRACTION"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/AdditionButton" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/MultiplicationButton"
         android:layout_width="225dp"
         android:layout_height="61dp"
         android:text="MULTIPLICATION"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/SubtractionButton"
         app:layout_constraintVertical_bias="0.203" />
 </androidx.constraintlayout.widget.ConstraintLayout>
